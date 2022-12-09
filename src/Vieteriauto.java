@@ -11,4 +11,9 @@ public class Vieteriauto extends Lelu{
         nopeus += 1;
         return nopeus;
     }
+    @Override
+    public void tulostaTiedot(){
+        super.tulostaTiedot();
+        System.out.println("Nopeus: " + nopeus);
+    }
 }

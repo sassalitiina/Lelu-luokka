@@ -4,6 +4,6 @@ public class Ohjelma {
         lelu1.tulostaTiedot();
 
         Vieteriauto auto1 = new Vieteriauto("Auto1", 200, 50);
-        auto1.kiihdyta();
+        auto1.tulostaTiedot();
     }
 }
