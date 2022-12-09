@@ -1,6 +1,6 @@
 class Lelu {
-    private String nimi;
-    private int paino;
+    protected String nimi;
+    protected int paino;
 
     public  Lelu(){
         nimi = "";
