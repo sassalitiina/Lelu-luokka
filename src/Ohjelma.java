@@ -5,5 +5,10 @@ public class Ohjelma {
 
         Vieteriauto auto1 = new Vieteriauto("Auto1", 200, 50);
         auto1.tulostaTiedot();
+
+        Nukke nukke1 = new Nukke("Barbie", 100, "vaalea");
+        nukke1.tulostaTiedot();
+        nukke1.puhu();
+
     }
 }
